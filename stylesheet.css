@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Código do header e também navbar*/
+.HeaderDiv{
+    background-color: black;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar nav a{
+    padding: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: red;
+}
+
+/*Código da section últimas notícias*/
+
+#TittleImg1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.paragrafo p{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.BodyContent{
+    margin: 25px auto 0 auto;
+    width: 1024px;
+}
+
+.ContentSection{
+    width: 1024px;
+    margin: 25px 0 0 0;
+    display: grid;
+    grid-template-columns: 20% 59%;
+    gap:1%;
+}
+
+.SectionImg img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*Código da EconomySection*/
+
+.ContentEconomy{
+    display: block;
+}
+
+#EconomyTittle{
+    margin-bottom: 15px;
+}
+
+#EconomySection{
+    margin: 25px 0 0 0;
+    width: 1024px;
+}
+
+#EconomyParagrafo{
+    width: 70%;
+    font-weight: bolder;
+}
+
+.ContentSectionEconomy{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 27%);
+}
+
+#EconomySection img{
+    width: 70%;
+    border-radius: 5px;
+
+}
+
+/*Código SectionPolitica*/
+
+#SectionPolitica{
+    margin: 25px 0 0 0 ;
+    width: 1024px;
+}
+
+.politica1{
+    margin-top: 25px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 1%;
+}
+
+.politica1 > img{
+    width: 100%;
+}
+
+#TittlePolitica1{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.politca1text{
+    display: block;
+}
+
+/*Sub notícias política*/
+
+#PequenasNoticias{
+    width: 1024px;
+}
+
+.SubnoticiasContent{
+    margin: 25px 0 0 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 1%;
+}
+
+.subnoticiaIMG{
+    width: 100%;
+}
